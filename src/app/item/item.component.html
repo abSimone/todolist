@@ -1,0 +1,14 @@
+<div class="record" >
+  <div class="field" [ngClass]="{field_urgent : item.urgent}">
+    <p>{{item.task}}</p>
+  </div>
+  <div class="field action">
+    <button class="btn complete">V</button>
+  </div>
+  <div class="field action">
+    <button class="btn delete">X</button>
+  </div>
+  <div class="field action">
+    <button class="btn urgent">U</button>
+  </div>
+</div>

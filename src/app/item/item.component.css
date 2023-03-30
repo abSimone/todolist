@@ -1,0 +1,58 @@
+.record {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+}
+
+.field {
+  margin-right: auto;
+  width: 640px;
+  justify-self: flex-start;
+  border: 1px solid #777;
+}
+.field > p {
+  font-size: 20px;
+}
+
+.field.action {
+  width: 60px;
+  justify-self: inherit;
+  margin-right: 0;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btn.complete:hover{
+background-color: #068e06;
+
+}
+.btn.complete {
+  background-color: #07b107;
+  border-radius: .7em;
+  color: white;
+  border: 1px solid #068e06
+}
+
+.btn.delete {
+  background-color: #dc143c;
+  border-radius: .7em;
+  color: #444;
+  border: 1px solid #b90c2f
+}
+
+.btn.urgent {
+  background-color: #f0f332;
+  border-radius: .7em;
+  color: #444;
+  border: 1px solid #d2d528
+}
+
+.field_urgent {
+  background-color: #ffe53e;
+}
